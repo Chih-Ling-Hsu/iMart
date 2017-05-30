@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\iMart\MySampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\User\Desktop\iMart\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_381b9cb3656eba3ec816ce9b1bf305703e8be856\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\iMart\MySampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b2eca1eab4f99d8aaa7667c99cb1a909b28b7c0">
+        <dex dex="C:\Users\User\Desktop\iMart\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8633407b9891cc8d3bbb576a40d8001bdb473097\classes.dex" />
+    </item>
+
+</items>

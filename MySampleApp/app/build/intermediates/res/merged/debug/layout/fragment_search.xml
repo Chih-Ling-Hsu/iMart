@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corner"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/text_search" />
+
+                <ImageView
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:padding="3dp"
+                    android:layout_alignRight="@id/text_search"
+                    android:id="@+id/btn_search"
+                    android:clickable="true"
+                    android:src="@drawable/searchbutton"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:paddingTop="5dp"
+                android:id="@+id/search_result" />
+
+            <ListView
+                android:id="@+id/list_message"
+                android:layout_height="290dp"
+                android:layout_width="match_parent"
+                android:layout_weight="0.94"
+                android:divider="#ffffffff"
+                android:dividerHeight="10dp">
+            </ListView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>

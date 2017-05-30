@@ -1,0 +1,7 @@
+#Tue May 30 22:30:34 CST 2017
+base.0=C\:\\Users\\User\\Desktop\\iMart\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_381b9cb3656eba3ec816ce9b1bf305703e8be856
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\User\\Desktop\\iMart\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8633407b9891cc8d3bbb576a40d8001bdb473097\\classes.dex
+base.1=C\:\\Users\\User\\Desktop\\iMart\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8633407b9891cc8d3bbb576a40d8001bdb473097
+file.0=C\:\\Users\\User\\Desktop\\iMart\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_381b9cb3656eba3ec816ce9b1bf305703e8be856\\classes.dex

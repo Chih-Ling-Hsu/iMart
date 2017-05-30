@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_centerVertical="true"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/imart"
+        />
+    <!--<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="70dp">
+
+        <ImageButton
+            android:id="@+id/btn_history"
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:scaleType="fitXY"
+            android:src="@mipmap/historybtn"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/searchbtn" />
+    </RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="60px"
+        android:layout_marginRight="60px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/btn_history"
+        android:clickable="true"
+        android:background="@drawable/history_page_btn"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:scaleType = "fitXY"
+            android:src="@mipmap/history"
+            android:clickable="true"
+            android:padding="10dp"
+            android:background="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/splash_background"
+            android:textSize="20sp"
+            android:text="My Concumption"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="60px"
+        android:layout_marginRight="60px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/btn_search"
+        android:clickable="true"
+        android:background="@drawable/search_page_btn"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:scaleType = "fitXY"
+            android:src="@mipmap/search"
+            android:clickable="true"
+            android:padding="10dp"
+            android:background="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/splash_background"
+            android:textSize="20sp"
+            android:text="Search Product"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
